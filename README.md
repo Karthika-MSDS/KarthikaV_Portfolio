@@ -28,6 +28,7 @@ With hands-on experience in **requirement gathering**, **impact analysis**, and 
 6. [Childcare Cost Affordability Analysis](#childcare-cost-affordability-analysis)
 7. [Personalized Fitness Assistant Powered by Generative AI](#personalized-fitness-assistant-powered-by-generative-ai)
 8. [AI-Driven Retail Optimization](#ai-driven-retail-optimization)
+9. [Smart Healthcare Operations](#Smart-Healthcare-Operations)
 
 ---
 ### Weather Data Retrieval and Analysis
