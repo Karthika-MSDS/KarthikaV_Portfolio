@@ -1,9 +1,6 @@
----
-
 # 🛒 AI-Driven Retail Optimization
 
 **Leveraging AI for Demand Forecasting, Inventory Intelligence, and Pricing Strategy**
-
 ---
 
 ## 📌 Project Overview
