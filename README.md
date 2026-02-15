@@ -211,6 +211,7 @@ Developed an AI-powered analytics solution to optimize hospital operations throu
 * Optimized staff allocation to reduce service delays.
 * Simulated operational scenarios (e.g., increased bed capacity, improved staff morale).
 * Reduced patient refusal rates through data-driven interventions.
+
 [Source Code](https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/SmartHealthcareOperations)
 
 ---
