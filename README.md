@@ -6,11 +6,13 @@
 
 ![Profile Image](https://raw.githubusercontent.com/Karthika-MSDS/KarthikaV_Portfolio/main/src/assets/profile.jpg)
 
-I am currently working as **Lead Telecom Billing Analyst** with 11+ years of experience in billing operations, data reconciliation, and reporting within large-scale enterprise environments.
+### Telecom Billing Analyst | Business Analyst | SQL • Python • Data Visualization • Operational Analytics
 
-Proficient in **SQL, PL/SQL, Python**, and data visualization tools like **Tableau, Power BI, and MicroStrategy**. Experienced in automating processes, performing root cause analysis, and delivering actionable insights from complex datasets.
+I am an analytics-focused professional with 11+ years of experience in enterprise telecom billing systems, where I transformed complex operational data into actionable business insights. My background combines deep system expertise with strong analytical problem-solving across high-volume transactional environments.
 
-Currently pursuing a **Master's in Data Science** from Bellevue University, focusing on Python programming, statistical analysis, and big data technologies, with a goal to transition into data-driven roles such as Data Analyst or Business Analyst.
+I specialize in **SQL**, **PL/SQL**, **Python**, and data visualization tools such as **MicroStrategy**, **Tableau**, and **Power BI**. I have led **data validation**, **root cause analysis**, **dashboard development**, and **automation initiatives** that improved reporting accuracy, enhanced operational visibility, and supported revenue protection strategies.
+
+With hands-on experience in **requirement gathering**, **impact analysis**, and **cross-functional collaboration**, I translate business needs into data-driven solutions. Currently pursuing a **Master’s in Data Science** from **Bellevue University**, I am strengthening my capabilities in **statistical analysis** and **predictive modeling** to transition into Data Analyst or Business Analyst roles focused on insight-led decision-making.
 
 [View Resume](https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/src/assets/sample_resume.pdf)
 
