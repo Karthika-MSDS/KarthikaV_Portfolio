@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karthika Vellingiri | Data Scientist Portfolio</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/Karthika-MSDS/KarthikaV_Portfolio/main/src/assets/favicon.png" />
+<style>
+    body { font-family: Arial, sans-serif; scroll-behavior: smooth; margin:0; padding:0;}
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    .tabs { display: flex; border-bottom: 2px solid #007bff; margin-bottom: 20px; }
+    .tab-button { padding: 10px 20px; cursor: pointer; background: none; border: none; font-size: 18px; color: #007bff; border-bottom: 3px solid transparent; transition: all 0.3s;}
+    .tab-button.active { border-bottom: 3px solid #007bff; font-weight: bold; }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    h2.section-title { font-size: 28px; margin-bottom: 20px; }
+    .project-wrapper__text-title { font-size: 20px; margin-bottom: 10px; }
+    .cta-btn { background-color: #007bff; color: white; padding: 8px 12px; border-radius: 4px; text-decoration: none; display: inline-block; margin-top: 10px; }
+    .about-wrapper__info-text { margin-bottom: 10px; }
+    footer { text-align: center; padding: 20px; }
+    .social-links a { margin: 0 10px; color: #000; text-decoration: none; }
+    img.img-fluid { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+
+<!-- Tabs -->
+<div class="container">
+    <div class="tabs">
+	<button class="tab-button active" onclick="openTab('about', event)">About Me</button>
+	<button class="tab-button" onclick="openTab('projects', event)">Projects</button>
+	<button class="tab-button" onclick="openTab('contact', event)">Contact</button>
+</div>
+
+
+	<!-- About Section -->
+	<div id="about" class="tab-content active">
+		<h2 class="section-title">Karthika Vellingiri</h2>
+		<div class="row about-wrapper">
+			<div class="col-md-6 col-sm-12">
+				<img 
+				  src="https://raw.githubusercontent.com/Karthika-MSDS/KarthikaV_Portfolio/main/src/assets/profile.jpg"
+				  alt="Profile Image"
+				  width="300"
+				/>
+
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<p class="about-wrapper__info-text">
+					I am currently working as Lead Telecom Billing Analyst with 11+ years of experience in billing operations, data reconciliation, and reporting within large-scale enterprise environments.
+				</p>
+				<p class="about-wrapper__info-text">
+					Proficient in SQL, PL/SQL, Python, and data visualization tools like Tableau, Power BI, and MicroStrategy. Experienced in automating processes, performing root cause analysis, and delivering actionable insights from complex datasets.
+				</p>
+				<p class="about-wrapper__info-text">
+					Currently pursuing a Master's in Data Science from Bellevue University, focusing on Python programming, statistical analysis, and big data technologies, with a goal to transition into data-driven roles such as Data Analyst or Business Analyst.
+				</p>
+				<a rel="noreferrer" target="_blank" class="cta-btn" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/src/assets/resume.pdf">View Resume</a>
+			</div>
+		</div>
+	</div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="tab-content">
+	<!-- **** Table of Contents **** -->
+	<section id="toc" class="toc-section">
+		<div class="container">
+			<h2 class="section-title load-hidden">Project List</h2>
+			<ol class="toc-list">
+				<li><a href="#project1">Weather Data Retrieval and Analysis</a></li>
+				<li><a href="#project2">Statistical Analysis of Student Spending Patterns</a></li>
+				<li><a href="#project3">Movie Performance & Ratings Trend Analysis</a></li>
+				<li><a href="#project4">Telecom Customer Churn Prediction</a></li>
+				<li><a href="#project5">House Price Prediction Using Regression Models</a></li>
+				<li><a href="#project6">Childcare Cost Affordability Analysis</a></li>
+				<li><a href="#project7">Personalized Fitness Assistant Powered by Generative AI</a></li>
+				<li><a href="#project8">AI-Driven Retail Optimization</a></li>
+				<li><a href="#project9">SmartHealthcareOperations</a></li>
+			</ol>
+		</div>
+	</section>
+	
+    <h2 class="section-title load-hidden">Projects Details</h2>
+
+    <!-- Row 1: Projects 1-3 -->
+    <div class="row">
+      <!-- 1. Weather Data Retrieval and Analysis -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project1">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">1. Weather Data Retrieval and Analysis</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Developed a Python application to retrieve real-time weather information for any U.S. city or ZIP code using the OpenWeatherMap API. 
+            The system fetches geographic coordinates, parses JSON responses, and extracts temperature, humidity, wind speed, and weather conditions. 
+            Implemented input validation, exception handling, and user-friendly messages to ensure reliable operation. Designed for scalability to include additional APIs or integration with dashboards.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Requests<br>
+            &nbsp;&nbsp;• JSON<br>
+            &nbsp;&nbsp;• Regex<br>
+            &nbsp;&nbsp;• zipcodes library
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Provides accurate, real-time weather insights for informed daily planning.<br>
+            &nbsp;&nbsp;• Demonstrates robust API integration, structured data parsing, and error handling.<br>
+            &nbsp;&nbsp;• Can be extended to dashboards, alerts, or mobile applications.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Weather_Project">Source Code</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- 2. Statistical Analysis of Student Spending Patterns -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project2">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">2. Statistical Analysis of Student Spending Patterns</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Conducted a comprehensive statistical study of student spending across categories such as food, transportation, and entertainment. 
+            Data cleaning, normalization, and aggregation were performed to ensure consistency. Applied descriptive statistics, correlation analysis, and hypothesis testing to identify patterns and relationships between income and expenditure.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Pandas<br>
+            &nbsp;&nbsp;• NumPy<br>
+            &nbsp;&nbsp;• Seaborn
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Identified key drivers of student expenditure for better budgeting strategies.<br>
+            &nbsp;&nbsp;• Supported data-driven recommendations for financial planning policies.<br>
+            &nbsp;&nbsp;• Insights can inform educational institutions and policymakers to optimize student cost management.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Student_Spending_Analysis">Source Code</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- 3. Movie Performance & Ratings Trend Analysis -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project3">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">3. Movie Performance & Ratings Trend Analysis</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Analyzed historical movie datasets to evaluate box office collections, audience ratings, and genre trends over time. 
+            Data cleaning, aggregation, and exploratory data analysis were performed to identify top-performing films and seasonal trends. 
+            Visualizations were created to highlight insights for decision-making in entertainment analytics.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Pandas<br>
+            &nbsp;&nbsp;• Matplotlib<br>
+            &nbsp;&nbsp;• Seaborn
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Identified high-performing genres and box office patterns.<br>
+            &nbsp;&nbsp;• Informed content acquisition and marketing strategies.<br>
+            &nbsp;&nbsp;• Enables data-driven decisions for film production and distribution.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Movie_Trend_Analysis">Source Code</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Row 2: Projects 4-6 -->
+    <div class="row">
+      <!-- 4. Telecom Customer Churn Prediction -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project4">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">4. Telecom Customer Churn Prediction</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Built machine learning models to predict customer churn in the telecom industry. 
+            Preprocessing included handling missing values, encoding categorical features, and feature scaling. 
+            Models such as Logistic Regression, Random Forest, and Gradient Boosting were trained and evaluated using accuracy, precision, recall, and ROC-AUC metrics.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Pandas<br>
+            &nbsp;&nbsp;• Scikit-learn
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Identified customers at high risk of churn for proactive retention.<br>
+            &nbsp;&nbsp;• Reduced revenue loss and improved long-term customer value.<br>
+            &nbsp;&nbsp;• Provides actionable insights for marketing and customer success teams.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Telecom_Churn_Prediction">Source Code</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- 5. House Price Prediction Using Regression Models -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project5">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">5. House Price Prediction Using Regression Models</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Developed regression models to predict housing prices based on property features such as location, size, and amenities. 
+            Data preprocessing included handling missing values, feature engineering, and one-hot encoding. 
+            Model performance was evaluated using MSE, MAE, and R² metrics.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Pandas<br>
+            &nbsp;&nbsp;• NumPy<br>
+            &nbsp;&nbsp;• Scikit-learn<br>
+            &nbsp;&nbsp;• Matplotlib<br>
+            &nbsp;&nbsp;• Seaborn
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Provides predictive insights for real estate pricing.<br>
+            &nbsp;&nbsp;• Helps investors and buyers make data-driven decisions.<br>
+            &nbsp;&nbsp;• Supports market trend analysis and competitive evaluation.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/House_Price_Prediction">Source Code</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- 6. Childcare Cost Affordability Analysis -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project6">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">6. Childcare Cost Affordability Analysis</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Created multi-format data visualizations to analyze childcare cost and affordability across U.S. regions. 
+            Delivered insights via an interactive Tableau dashboard, infographic for public awareness, and a policy-focused presentation for stakeholders.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Tableau<br>
+            &nbsp;&nbsp;• PowerPoint<br>
+            &nbsp;&nbsp;• Data Visualization Tools
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Highlighted regional affordability gaps and trends.<br>
+            &nbsp;&nbsp;• Supports evidence-based policy decisions.<br>
+            &nbsp;&nbsp;• Increases awareness among families and stakeholders for cost planning.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Childcare_Affordability">Source Code</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Row 3: Projects 7-8 -->
+    <div class="row">
+      <!-- 7. Personalized Fitness Assistant -->
+      <div class="col-lg-4 col-sm-12">
+	  	  <div id="project7">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">7. Personalized Fitness Assistant Powered by Generative AI</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Developed a generative AI assistant to create personalized home workout plans based on user goals, fitness level, and constraints. 
+            Fine-tuned a GPT model using curated datasets of exercises, and implemented evaluation metrics to ensure relevance, variety, and adaptability.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• OpenAI API<br>
+            &nbsp;&nbsp;• JSON<br>
+            &nbsp;&nbsp;• Matplotlib
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Provides AI-powered personalized fitness recommendations.<br>
+            &nbsp;&nbsp;• Showcases applied generative AI and model fine-tuning workflows.<br>
+            &nbsp;&nbsp;• Can be extended into apps or fitness platforms for adaptive workouts.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/Fitness_Assistant_AI">Source Code</a>
+        </div>
+      </div>
+      </div>
+
+      <!-- 8. AI-Driven Retail Optimization -->
+      <div class="col-lg-4 col-sm-12">
+	  <div id="project8">
+        <div class="project-wrapper__text">
+          <h3 class="project-wrapper__text-title">8. AI-Driven Retail Optimization</h3>
+          <p class="mb-4">
+            <b>Project Overview:</b><br>
+            Built AI-driven predictive models to forecast product demand, optimize inventory allocation, and recommend dynamic pricing strategies. 
+            Integrated historical sales data, promotional campaigns, and seasonal patterns. Applied regression, time-series analysis, and feature engineering to drive decision-making.
+          </p>
+          <p class="mb-4">
+            <b>Tools & Technologies:</b><br>
+            &nbsp;&nbsp;• Python<br>
+            &nbsp;&nbsp;• Pandas<br>
+            &nbsp;&nbsp;• NumPy<br>
+            &nbsp;&nbsp;• Scikit-learn<br>
+            &nbsp;&nbsp;• Matplotlib<br>
+            &nbsp;&nbsp;• Seaborn
+          </p>
+          <p class="mb-4">
+            <b>Impact & Insights Generated:</b><br>
+            &nbsp;&nbsp;• Improved demand forecasting accuracy and inventory management.<br>
+            &nbsp;&nbsp;• Reduced stockouts and overstock risk.<br>
+            &nbsp;&nbsp;• Supports data-driven pricing strategy and maximizes retail revenue.
+          </p>
+          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/AI_Retail_Optimization">Source Code</a>
+        </div>
+      </div>
+      </div>
+	  
+      <!-- 9. Smart Healthcare Operations -->
+      <div class="col-lg-4 col-sm-12">
+        <div id="project9">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">9. Smart Healthcare Operations</h3>
+            <p class="mb-4">
+              <b>Project Overview:</b><br>
+              Developed an AI-powered analytics solution to optimize hospital operations through patient demand forecasting and intelligent staff allocation. 
+              Utilized historical healthcare service data to predict patient inflow, analyze absenteeism patterns, and evaluate bed capacity utilization. 
+              Applied regression and classification models to support operational and prescriptive decision-making.
+            </p>
+            <p class="mb-4">
+              <b>Tools & Technologies:</b><br>
+              &nbsp;&nbsp;• Python<br>
+              &nbsp;&nbsp;• Pandas<br>
+              &nbsp;&nbsp;• NumPy<br>
+              &nbsp;&nbsp;• Scikit-learn<br>
+              &nbsp;&nbsp;• Matplotlib<br>
+              &nbsp;&nbsp;• Seaborn<br>
+            </p>
+            <p class="mb-4">
+              <b>Impact & Insights Generated:</b><br>
+              &nbsp;&nbsp;• Improved patient demand forecasting accuracy.<br>
+              &nbsp;&nbsp;• Optimized staff allocation to reduce service delays.<br>
+              &nbsp;&nbsp;• Simulated operational scenarios (e.g., increased bed capacity, improved staff morale).<br>
+              &nbsp;&nbsp;• Reduced patient refusal rates through data-driven interventions.
+            </p>
+            <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/Projects/SmartHealthcareOperations">Source Code</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+	<div id="contact" class="tab-content">
+		<h2 class="section-title">Contact</h2>
+		<a rel="noreferrer" target="_blank" class="cta-btn" href="mailto:kvellingiri@my365.bellevue.edu">
+			kvellingiri@my365.bellevue.edu
+		</a>
+		<br><br>
+		<a rel="noreferrer" target="_blank" class="cta-btn" href="https://github.com/Karthika-MSDS">
+			My GitHub Repository
+		</a>
+	</div>
+
+</div>
+
+<script>
+function openTab(tabId, event) {
+    const tabs = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-button');
+    tabs.forEach(tab => tab.classList.remove('active'));
+    buttons.forEach(btn => btn.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    event.currentTarget.classList.add('active');
+}
+</script>
+
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="footer navbar-static-bottom">
+    <div class="social-links">
+        <a href="#!" target="_blank"><i class="fa fa-twitter fa-inverse"></i></a>
+        <a href="#!" target="_blank"><i class="fa fa-linkedin fa-inverse"></i></a>
+        <a href="#!" target="_blank"><i class="fa fa-github fa-inverse"></i></a>
+    </div>
+</footer>
