@@ -1,37 +1,160 @@
+# 📡 Telco Customer Churn Prediction – Supervised Learning Pipeline
 
-Telecom Customer Churn Prediction Using Machine Learning
+**Predicting customer churn using logistic regression, feature engineering, and model evaluation metrics.**
 
-Project Overview
-Customer churn is a critical challenge in the telecom industry. This project uses machine learning techniques to predict which customers are likely to discontinue services, helping companies implement proactive retention strategies.
-Problem Statement
-The goal is to identify customers at risk of leaving based on historical data, service usage patterns, and billing information. Early identification allows telecom companies to target retention efforts effectively.
-Data Description
-The dataset includes:
-•	Customer demographics (age, gender, tenure, location)
-•	Service subscription details (plan type, add-ons)
-•	Billing information (monthly charges, payment method)
-•	Usage patterns (call minutes, data usage, service calls)
-Data Preprocessing:
-•	Handled missing values
-•	Encoded categorical features using one-hot encoding
-•	Scaled numerical features for model consistency
-Methodology
-1.	Exploratory Data Analysis (EDA):
-o	Identified churn trends across different customer segments
-o	Analyzed correlations between features and churn probability
-2.	Modeling:
-o	Trained classification models: Logistic Regression, Decision Tree, Random Forest
-o	Evaluated performance using accuracy, precision, recall, F1-score, and ROC-AUC
-3.	Prediction & Insights:
-o	Determined key factors influencing churn, such as contract type, payment method, and customer tenure
-o	Visualized feature importance and model predictions for interpretability
-Key Outcomes
-•	Developed a predictive model with strong accuracy and recall for churn identification
-•	Provided actionable insights for retention strategies and customer relationship management
-•	Demonstrated end-to-end workflow from data preprocessing to model evaluation
-Tools & Technologies
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-Installation / Running the Project
-1.	Clone the repository: git clone <repo_url>
-2.	Install required packages: pip install -r requirements.txt
-3.	Run the Jupyter notebook or Python scripts for EDA, modeling, and evaluation: jupyter notebook Telecom_Churn_Prediction.ipynb
+---
+
+## 📌 Project Overview
+
+This project implements a **data-driven churn prediction pipeline** for a telecommunications company using historical customer data.  
+The goal is to **identify at-risk customers**, analyze churn drivers, and optimize retention strategies through **machine learning techniques**.  
+
+Key objectives:
+
+- Perform comprehensive **EDA and feature engineering**  
+- Train and evaluate **Logistic Regression models**  
+- Apply **hyperparameter tuning** to improve performance  
+- Generate visualizations and performance metrics for actionable insights  
+
+---
+
+## 🎯 Objectives
+
+- Clean and preprocess the Telco customer dataset  
+- Engineer new features to capture customer behavior  
+- Build a predictive model for churn classification  
+- Evaluate performance using metrics like **accuracy, ROC AUC, and confusion matrices**  
+- Provide insights into factors influencing customer churn  
+
+---
+
+## 📊 Dataset
+
+**File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`  
+**Source:** Public Telco customer churn dataset  
+
+Key features include:
+
+- Customer demographics (gender, senior citizen status, etc.)  
+- Account information (tenure, contract type, payment method)  
+- Service usage (InternetService, MonthlyCharges, TotalCharges)  
+- Target variable: `Churn` (Yes/No)  
+
+---
+
+## 🛠 Data Preparation & Feature Engineering
+
+1. **Data Cleaning**
+   - Converted `TotalCharges` to numeric  
+   - Filled missing numeric values with column mean  
+   - Encoded `Churn` as binary (1 = Yes, 0 = No)  
+
+2. **Feature Engineering**
+   - Created `AvgMonthlySpend = TotalCharges / tenure`  
+   - Binned `tenure` into categories: `0-12`, `12-24`, `24-36`, `36-48`, `48-60`, `60+`  
+   - Dropped irrelevant columns (e.g., `customerID`)  
+
+3. **Data Transformation**
+   - Applied **StandardScaler** to numerical columns  
+   - Applied **OneHotEncoder** to categorical columns  
+   - Combined processed features into a **final dataset** ready for modeling  
+
+4. **Exploratory Data Analysis**
+   - Distribution of churn, gender, senior citizen status  
+   - Boxplots for `tenure` and `MonthlyCharges` vs churn  
+   - Stacked bar chart for `InternetService` vs churn  
+
+---
+
+## 🧠 Modeling Approach
+
+### Logistic Regression
+
+- Baseline classification model for predicting churn  
+- Evaluated using:
+  - Accuracy  
+  - Confusion matrix  
+  - Classification report (precision, recall, F1-score)  
+  - ROC AUC score and ROC curve  
+
+### Hyperparameter Tuning
+
+- Used **GridSearchCV** to optimize the regularization parameter `C`  
+- Retrained model with best hyperparameters to improve performance  
+
+---
+
+## 📈 Model Performance
+
+| Metric | Baseline | Tuned Model |
+|--------|---------|------------|
+| Accuracy | 0.801 | 0.812 |
+| ROC AUC | 0.857 | 0.869 |
+| Precision | 0.735 | 0.746 |
+| Recall | 0.620 | 0.639 |
+
+**Key Insights:**
+
+- High monthly charges and short tenure are associated with churn  
+- Contract type and InternetService significantly affect churn probability  
+- Model can be used for **targeted retention campaigns**  
+
+---
+
+## 🔍 Visualizations
+
+- **Churn Distribution:** Bar chart  
+- **Tenure vs Churn:** Box plot  
+- **Monthly Charges vs Churn:** Box plot  
+- **Internet Service vs Churn:** Stacked bar chart  
+- **Confusion Matrices:** Heatmaps for baseline and tuned models  
+- **ROC Curves:** Comparison of baseline and tuned model performance  
+
+![Churn Distribution](churn_distribution.png)  
+![Tenure Distribution](Tenure_distribution.png)  
+![Monthly Charges Distribution](MonthlyCharges_Distribution.png)  
+![ROC Curve](ROCCurve.png)  
+
+---
+
+## 📂 Project Structure
+
+```text
+Telco-Churn-Prediction/
+│
+├── data/                  # Raw dataset files
+├── notebooks/             # EDA, preprocessing, and modeling notebooks
+├── figures/               # Visualizations and plots
+├── models/                # Saved trained models (churn_model.pkl)
+├── processed_data/        # Transformed and feature-engineered datasets
+├── reports/               # Confusion matrices, ROC curves, and metrics
+└── README.md
+````
+
+---
+
+## 🔮 Future Improvements
+
+* Test **ensemble models** (Random Forest, XGBoost, Gradient Boosting) for improved performance
+* Include additional behavioral features such as **service usage patterns**
+* Automate model monitoring for **live churn prediction**
+* Deploy a **dashboard for business stakeholders** with interactive insights
+
+---
+
+## ⚖ Ethical Considerations
+
+* Customer privacy maintained; dataset contains anonymized information
+* Predictions intended for **strategic decision-making**, not punitive actions
+* Transparency in feature selection and modeling assumptions
+* Responsible use to prevent bias in customer targeting
+
+---
+
+## 👤 Author
+
+**Karthika Vellingiri**
+Applied Data Science / AI Projects
+DSC 680 Coursework
+
+**Tools Used:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, IPython, Jupyter Notebook, Joblib
