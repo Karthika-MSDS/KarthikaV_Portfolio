@@ -1,4 +1,4 @@
-# 🛒 AI-Driven Retail Optimization
+# 🛒 Predicting Retail Demand Using Random Forest: Inventory and Pricing Insight
 
 **Leveraging AI for Demand Forecasting, Inventory Intelligence, and Pricing Strategy**
 ---
@@ -109,20 +109,6 @@ This serves as a **baseline model**, highlighting opportunities for improvement 
 
 ---
 
-## 📂 Project Structure
-
-```
-AI-DrivenRetailOptimization/
-│
-├── data/
-├── notebooks/
-├── figures/
-├── appendix
-└── README.md
-```
-
----
-
 ## 🚀 Business Impact
 
 ✔ Improved visibility into sales drivers
@@ -144,6 +130,5 @@ AI-DrivenRetailOptimization/
 ## 👩‍💻 Author
 
 **Karthika Vellingiri**
-Retail & Predictive Analytics Enthusiast
 
 ---
