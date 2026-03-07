@@ -1,35 +1,38 @@
-Here’s a **single, clean, GitHub-ready README.md** you can use for your project repository. It’s detailed, professional, and includes all key sections in one document:
+# 🤖 AI Fitness Coach – Fine-Tuned Language Model
 
-````markdown
-# AI Fitness Coach – Fine-Tuned Language Model
-
-## Project Overview
-
-This project fine-tunes an OpenAI language model to act as a **personalized fitness coach**.  
-The AI generates structured workout plans tailored to user profiles, including age, fitness level, and goals. It demonstrates a full workflow from dataset preparation to model evaluation.
+**Personalized AI-driven workout plans using a fine-tuned OpenAI model.**
 
 ---
 
-## Objectives
+## 📌 Project Overview
+
+This project fine-tunes an OpenAI language model to act as a **personalized fitness coach**.  
+The AI generates structured workout plans tailored to user profiles, including **age, fitness level, and goals**.  
+
+**Goal:** Demonstrate a full workflow from dataset preparation to model evaluation and visualization of performance metrics.
+
+---
+
+## 🎯 Objectives
 
 - Fine-tune an OpenAI model to respond as a fitness coach  
 - Generate personalized workout plans for diverse users  
 - Evaluate outputs using token usage, accuracy, and simulated loss  
 - Compare results between fine-tuned and base models  
-- Create visual summaries for performance analysis
+- Create visual summaries for performance analysis  
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 **File:** `FitnessCoach-50.jsonl`  
 **Format:** JSON Lines (`.jsonl`)  
 
 Contains ~50 examples with:
 
-- System message: AI role definition  
-- User prompt: Workout request  
-- Assistant response: Structured workout routine
+- **System message:** AI role definition  
+- **User prompt:** Workout request  
+- **Assistant response:** Structured workout routine  
 
 ### Example Entry
 
@@ -45,14 +48,16 @@ Contains ~50 examples with:
 
 ---
 
-## Environment Setup
+## 🛠 Environment Setup
 
 **Dependencies:**
 
 * Python ≥3.10
-* `requests`, `python-dotenv`, `matplotlib`
+* `requests`
+* `python-dotenv`
+* `matplotlib`
 
-**Load API Key**
+**Load API Key:**
 
 ```python
 from dotenv import load_dotenv
@@ -72,7 +77,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ---
 
-## Workflow
+## 🏋️ Workflow
 
 1. **Dataset Upload:** Upload `FitnessCoach-50.jsonl` to OpenAI for fine-tuning.
 2. **Fine-Tune Job Creation:** Configure training parameters:
@@ -86,8 +91,8 @@ OPENAI_API_KEY=your_openai_api_key_here
 }
 ```
 
-3. **Monitor Training:** Poll the OpenAI API until job status is `succeeded`.
-4. **Evaluate Model:** Test fine-tuned outputs using prompts like:
+3. **Monitor Training:** Poll OpenAI API until job status is `succeeded`.
+4. **Evaluate Model:** Test fine-tuned outputs with prompts like:
 
 * "Generate a 5-day beginner workout plan for a 30-year-old female."
 * "Create a 3-day strength training plan for a 40-year-old male."
@@ -99,23 +104,23 @@ OPENAI_API_KEY=your_openai_api_key_here
 * **Accuracy:** Checks if expected exercises appear (Squats, Push-ups, Lunges, Plank, Glute Bridge, Jumping Jacks)
 * **Simulated Loss:** `1 - Accuracy`
 
-6. **Compare Base vs Fine-Tuned Models:** GPT-4.1 and GPT-3.5 base vs fine-tuned versions.
+6. **Compare Base vs Fine-Tuned Models:** GPT-4.1 and GPT-3.5 base vs fine-tuned versions
 
 ---
 
-## Visualization
+## 📈 Visualization
 
-Metrics are plotted using `matplotlib`:
+Metrics plotted using `matplotlib`:
 
 * **Accuracy** (green)
 * **Simulated Loss** (red)
 * X-axis: Test prompts
 
-This helps visualize model performance across different prompts.
+Visualizations show performance across different prompts.
 
 ---
 
-## Output
+## 📝 Output
 
 **Summary File:** `workout_finetune_summary.json`
 
@@ -129,7 +134,7 @@ Includes:
 
 ---
 
-## Future Improvements
+## 🔮 Future Improvements
 
 * Expand training dataset (1000+ examples)
 * Include structured JSON outputs for exercises, sets, reps, and duration
@@ -139,7 +144,7 @@ Includes:
 
 ---
 
-## Ethical Considerations
+## ⚖ Ethical Considerations
 
 * **Privacy:** Dataset contains synthetic examples only
 * **Safety:** Recommendations are general; users should consult a physician
@@ -148,17 +153,24 @@ Includes:
 
 ---
 
-## Author
+## 📂 Project Structure
+
+```
+AI-FitnessCoach/
+│
+├── data/          # JSONL training files
+├── notebooks/     # Jupyter notebooks for evaluation and visualization
+├── figures/       # Performance charts and plots
+├── appendix/      # Additional analysis, code snippets
+└── README.md
+```
+
+---
+
+## 👤 Author
 
 **Karthika Vellingiri**
 Applied Data Science / AI Projects
 DSC 680 / DSC 640 Coursework
 
-```
-
-This one is **ready to paste into GitHub**, fully detailed, and keeps everything in a single file without extra dependencies.  
-
-I can also create a **version with badges, architecture diagram, and example screenshots of outputs**, which makes it look more portfolio-ready.  
-
-Do you want me to do that version too?
-```
+**Tools Used:** OpenAI API, JSON, Matplotlib, Python (optional evaluation), Jupyter Notebook
