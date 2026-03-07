@@ -1,0 +1,28 @@
+{
+  "fine_tuned_model": "ft:gpt-4.1-2025-04-14:personal:fitnesscoach-50:CXcrSKdw",
+  "test_prompts": [
+    "Generate a 5-day beginner workout plan for a 30-year-old female.",
+    "Generate a 3-day full-body home workout plan for a 25-year-old male.",
+    "Provide a 7-day cardio-focused workout routine for a 40-year-old female."
+  ],
+  "test_outputs": [
+    "**Workout Plan (Beginner, 30-year-old female)**\n\n**Day 1 – Full Body**\n- Warm-Up: Jumping Jacks – 5 min\n- Squats – 3x12\n- Push-Ups – 3x10\n- Glute Bridge – 3x12\n- Plank – 3x30s\n- Cool-Down: Stretch – 5 min\n\n**Day 2 – Cardio**\n- Warm-Up: High Knees – 5 min\n- Brisk Walk/Jog – 20 min\n- Mountain Climbers – 3x12\n- Lunges – 3x10\n- Bicycle Crunches – 3x12\n- Cool-Down: Stretch – 5 min\n\n**Day 3 – Lower Body**\n- Warm-Up: Arm Circles – 5 min\n- Step-Ups – 3x12\n- Deadlifts – 3x12\n- Wall Sit – 3x30s\n- Side Leg Raises – 3x12\n- Cool-Down: Stretch – 5 min\n\n**Day 4 – Rest**\n\n**Day 5 – Upper Body**\n- Warm-Up: March in Place – 5 min\n- Shoulder Taps – 3x12\n- Bent Over Row – 3x12\n- Bicep Curls – 3x12\n- Superman – 3x12\n- Cool-Down: Stretch – 5 min",
+    "**Workout Plan**\n\n**Day 1**\n- Warm-Up: Jumping Jacks – 2 min\n- Push-Ups – 3x12\n- Lunges – 3x12\n- Glute Bridge – 3x15\n- Plank – 3x30s\n- Cool-Down: Stretch – 5 min\n\n**Day 2**\n- Warm-Up: High Knees – 2 min\n- Squats – 3x15\n- Mountain Climbers – 3x20\n- Superman – 3x12\n- Side Plank – 3x30s (each side)\n- Cool-Down: Stretch – 5 min\n\n**Day 3**\n- Warm-Up: Arm Circles – 2 min\n- Step-Ups – 3x12\n- Tricep Dips – 3x12\n- Bicycle Crunches – 3x20\n- Wall Sit – 3x45s\n- Cool-Down: Stretch – 5 min",
+    "**Workout Routine (Cardio-Focused, 7 Days, 40-Year-Old Female)**\n\n**Day 1**\n- Warm-up: Dynamic stretches – 5 min\n- Main: Brisk walk or jog – 30 min\n- Strength: Bodyweight exercises – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 2**\n- Warm-up: Jumping jacks – 5 min\n- Main: Cycling – 30 min\n- Strength: Core workout – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 3**\n- Warm-up: Arm circles – 5 min\n- Main: HIIT – 20 min\n- Strength: Lower body workout – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 4**\n- Warm-up: Dynamic stretches – 5 min\n- Main: Swimming – 30 min\n- Strength: Upper body workout – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 5**\n- Warm-up: Jumping jacks – 5 min\n- Main: Brisk walk or jog – 30 min\n- Strength: Core workout – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 6**\n- Warm-up: Leg swings – 5 min\n- Main: Cycling – 30 min\n- Strength: Bodyweight exercises – 10 min\n- Cool-down: Static stretches – 5 min\n\n**Day 7**\n- Warm-up: Dynamic stretches – 5 min\n- Main: Yoga or pilates – 30 min\n- Strength: Light full-body – 10 min\n- Cool-down: Static stretches – 5 min"
+  ],
+  "token_counts": [
+    338,
+    246,
+    398
+  ],
+  "accuracy_scores": [
+    1.0,
+    1.0,
+    0.17
+  ],
+  "simulated_loss": [
+    0.0,
+    0.0,
+    0.83
+  ]
+}
