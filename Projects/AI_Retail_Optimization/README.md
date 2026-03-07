@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-```
->>>>>>> 3a7e346b122dd6cdf59cbd7b5a7a29249db4f0fe
+```markdown
 # 🛒 Predicting Retail Demand Using Random Forest: Inventory and Pricing Insight
 
 **Leveraging AI for Demand Forecasting, Inventory Intelligence, and Pricing Strategy**
@@ -114,8 +111,6 @@ This model serves as a **baseline forecasting approach** and highlights opportun
 
 ---
 
-<<<<<<< HEAD
-=======
 ## 📂 Project Structure
 
 ```
@@ -132,7 +127,6 @@ AI-DrivenRetailOptimization/
 
 ---
 
->>>>>>> 3a7e346b122dd6cdf59cbd7b5a7a29249db4f0fe
 ## 🚀 Business Impact
 
 ✔ Improved visibility into sales drivers  
