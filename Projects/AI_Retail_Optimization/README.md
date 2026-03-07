@@ -114,7 +114,7 @@ This model serves as a **baseline forecasting approach** and highlights opportun
 ## 📂 Project Structure
 
 ```
-SmartHealthcareOperations/
+AIRetailOptimization/
 │
 ├── data/
 ├── notebooks/
