@@ -1,4 +1,3 @@
-```markdown
 # 🛒 Predicting Retail Demand Using Random Forest: Inventory and Pricing Insight
 
 **Leveraging AI for Demand Forecasting, Inventory Intelligence, and Pricing Strategy**
@@ -148,4 +147,3 @@ AIRetailOptimization/
 **Karthika Vellingiri**
 
 **Tools:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-```
