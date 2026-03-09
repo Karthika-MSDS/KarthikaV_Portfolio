@@ -14,7 +14,7 @@ I specialize in **SQL**, **PL/SQL**, **Python**, and data visualization tools su
 
 With hands-on experience in **requirement gathering**, **impact analysis**, and **cross-functional collaboration**, I translate business needs into data-driven solutions. Currently pursuing a **Master’s in Data Science** from **Bellevue University**, I am strengthening my capabilities in **statistical analysis** and **predictive modeling** to transition into Data Analyst or Business Analyst roles focused on insight-led decision-making.
 
-[View Resume](https://github.com/Karthika-MSDS/KarthikaV_Portfolio/tree/main/src/assets/Karthika_Vellingiri_Resume.pdf)
+[View Resume](https://github.com/Karthika-MSDS/KarthikaV_Portfolio/blob/main/src/assets/Karthika_Vellingiri_Resume.pdf)
 
 ---
 
