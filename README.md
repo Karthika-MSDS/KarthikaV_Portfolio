@@ -219,6 +219,81 @@ Developed an AI-powered analytics solution to optimize hospital operations throu
 
 ---
 
+## Getting Started
+
+Follow the steps below to clone the repository and run the projects locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Karthika-MSDS/KarthikaV_Portfolio.git
+cd KarthikaV_Portfolio
+```
+
+### 2. Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Mac/Linux**
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Python Dependencies
+
+If a `requirements.txt` file is available, install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+If not, install the commonly used libraries manually:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn requests zipcodes
+```
+
+### 4. Run Python Projects
+
+Navigate to the relevant project folder and run the scripts or notebooks.
+
+Example:
+
+```bash
+cd Projects/Weather_Project
+python weather_app.py
+```
+
+For Jupyter Notebook based projects:
+
+```bash
+jupyter notebook
+```
+
+### 5. Tableau Dashboard
+
+The **Childcare Cost Affordability Analysis** project includes a Tableau dashboard. To view or edit it:
+
+1. Download and install **Tableau Desktop** or use **Tableau Public**.
+2. Open the `.twb` or `.twbx` file located in the project folder.
+3. Connect the dataset if prompted.
+
+### 6. API Configuration (If Required)
+
+Some projects (such as the Weather Data project) require API keys. Obtain an API key from the relevant provider (e.g., OpenWeatherMap) and update the configuration before running the application.
+
+
 ## Contact
 
 * Email: [kvellingiri@my365.bellevue.edu](mailto:kvellingiri@my365.bellevue.edu)
